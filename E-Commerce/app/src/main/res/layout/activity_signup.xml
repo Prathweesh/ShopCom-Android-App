@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/app_logo"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="40sp"
+        android:gravity="center"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/signup_name"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="12dp"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:hint="Name"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/person_foreground"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/signup_password"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/password_foreground"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/signup_confirm"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:hint="Confirm Password"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/password_foreground"
+                android:drawablePadding="8dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/signup_email"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:drawableLeft="@drawable/email_foreground"
+        android:drawablePadding="8dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/signup_phone_no"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:hint="Phone Number"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:drawableLeft="@drawable/phone_foreground"
+        android:drawablePadding="8dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/signup_address"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:hint="Address"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:drawableLeft="@drawable/address_foreground"
+        android:drawablePadding="8dp"/>
+
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Sign Up"
+                android:id="@+id/signup_button"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/lavender"
+                android:layout_marginTop="20dp"
+                app:cornerRadius = "30dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="Already an user? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/lavender"/>
+
+
+</LinearLayout>
